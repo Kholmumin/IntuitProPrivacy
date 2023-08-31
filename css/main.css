@@ -1,12 +1,6 @@
 /* VARIABLES */
 
-:root{
-  /* --main-text-color : #fff; */
-  /* --main-bg-color : #fff; */
-  /* --main-font-size : 16px; */
-  /* --main-font-weight : 400; */
-  /* --main-line-height : 1.5; */
-}
+
 
 /* GENERAL */
 
@@ -26,7 +20,9 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto", "Arial", sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #F5F5F7;
   /* font-size: 16px; */
   /* font-weight: 400; */
   /* line-height: var(--main-line-height); */
@@ -49,7 +45,7 @@ body{
 /* CONTAINER */
 
 .container{
-  /* max-width: your-size-here; */
+  max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 20px;
@@ -61,4 +57,26 @@ body{
   flex-grow: 1;
 }
 
+.title{
+  text-align: center;
+}
+.language{
+
+
+  text-align: center;
+}
+
+.lang_russian{
+  display: inline-block;
+  width: 100%;
+  max-width: 230px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #0ccf6b;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
 
